@@ -1,0 +1,14 @@
+@import url(../../index.css);
+
+.progress-bar {
+  height: 5px;
+  background-color: var(--primary) !important;
+  color: var(--primary) !important;
+  margin-top: 20px;
+}
+.progressMultiple {
+  height: 5px;
+  background-color: var(--primary) !important;
+  color: var(--primary) !important;
+  margin-top: 20px;
+}

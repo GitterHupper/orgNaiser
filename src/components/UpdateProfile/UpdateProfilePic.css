@@ -1,0 +1,31 @@
+@import url(../../index.css);
+
+.avatar {
+  margin-top: 10px;
+  vertical-align: middle;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border-width: 5px;
+  border-color: var(--primary);
+  border-style: outset;
+  right: 20px;
+  top: 10px;
+  position: relative;
+  float: right;
+}
+.UpdatePFPBtn {
+  position: relative;
+  top: 40px;
+}
+.avatar_icon {
+  margin-top: 10px;
+  vertical-align: middle;
+  right: 20px;
+  top: 12px;
+  position: relative;
+  float: right;
+}
+.setter:hover {
+  background-color: #313131 !important;
+}

@@ -1,0 +1,41 @@
+@import url(../../index.css);
+
+.logoutBtn {
+  right: 30px;
+  top: -10px;
+  position: relative;
+  float: right;
+  background-color: var(--primary) !important;
+  border-color: var(--primary) !important;
+}
+
+.logoutBtn:hover {
+  background-color: #e99892 !important;
+  border-color: #e99892 !important;
+}
+.UpdateBtn {
+  opacity: 0.8;
+  margin-left: 5px;
+  right: 20px;
+  top: -12px;
+  position: relative;
+  float: right;
+}
+
+.UpdateBtn:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+.displayName {
+  opacity: 0.8;
+  margin-left: 0;
+  right: -7px;
+  top: 50px;
+  position: absolute;
+  float: right;
+}
+.AccountMenu {
+  position: fixed;
+  right: 3%;
+  top: 2%;
+}

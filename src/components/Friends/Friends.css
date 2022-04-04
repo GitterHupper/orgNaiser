@@ -1,0 +1,20 @@
+@import url(../../index.css);
+
+.friendList {
+  left: 5vw;
+  top: 36vh;
+}
+.friendListBG {
+  position: fixed;
+  width: 15vw;
+  left: 1vw;
+  top: 45vh;
+}
+.friendListBG .FriendLink:hover {
+  background-color: rgb(106, 148, 199);
+}
+.FriendsUsername {
+  padding-left: 5px;
+  font-size: 16px;
+  font-weight: 500;
+}

@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap");
+
+:root {
+  --primary: #0c60df;
+  --secondary: #4e4e4e;
+  --error: #ff4a4a;
+}
+.btn-secondary {
+  background-color: var(--secondary) !important;
+  border-color: var(--secondary) !important;
+}
+.secondary:hover {
+  background-color: #313131 !important;
+}
+a {
+  color: var(--secondary) !important;
+}
+
+/* base styles & title */
+html {
+  overflow-y: overlay;
+}
+body {
+  font-family: "Noto Serif";
+  color: var(--secondary);
+}
+.APP {
+  width: 980px;
+  margin: 0 auto;
+  background-color: whitesmoke;
+}
+.forBackground {
+  right: 4.5vw;
+  position: relative;
+}
+
+.Header h1 {
+  color: var(--primary);
+  font-size: 1.4rem;
+  letter-spacing: 2px;
+  font-weight: normal;
+}
+.Header h2,
+.Header p {
+  text-align: center;
+}
+.Header h2 {
+  margin-top: 60px;
+  font-size: 2.6rem;
+}
