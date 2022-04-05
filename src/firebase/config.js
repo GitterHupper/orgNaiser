@@ -9,7 +9,7 @@ import { getAuth } from "firebase/auth";
 // Your web app's Firebase configuration
 const firebaseConfig = {
   apiKey: "AIzaSyBaB52kWmkKY6N6O6dVW8PXQp0E6U0bfmQ",
-  authDomain: "orgnaiser.firebaseapp.com",
+  authDomain: "orgnaiser.herokuapp.com",
   databaseURL: "https://orgnaiser-default-rtdb.europe-west1.firebasedatabase.app",
   projectId: "orgnaiser",
   storageBucket: "orgnaiser.appspot.com",

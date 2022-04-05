@@ -18,7 +18,6 @@ const MainProgram = () => {
 
   return (
     <div className="APP">
-      {/* <Dashboard /> */}
       <Header />
       <AccountMenu />
       <UploadForm />

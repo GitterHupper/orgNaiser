@@ -19,8 +19,8 @@ const checkImageWidth = async (file) => {
 const resizeImage = (file) => {
   let quality = 100;
 
-  if (file.size < 4000000) quality = 75;
-  if (file.size < 8000000) quality = 70;
+  if (file.size < 4000000) quality = 45;
+  if (file.size < 8000000) quality = 40;
 
   return new Promise((resolve) => {
     Resizer.imageFileResizer(
